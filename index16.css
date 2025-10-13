@@ -1,0 +1,56 @@
+body {
+  background-image: url('../photo/sea.jpg'); /* 사진 경로 */
+  background-size: cover; /* 화면 꽉 채우기 */
+  background-position: center; /* 가운데 정렬 */
+  background-repeat: no-repeat; /* 반복 안 함 */
+  height: 100vh; /* 화면 전체 높이 */
+  margin: 0;
+}
+
+#sixteenth {
+      color : white;
+    font-family: monospace;
+font-size: 19px;
+top: 400px;
+left:200px;
+position: absolute;
+}
+
+#date{
+      color : white;
+    font-family: monospace;
+font-size: 15px;
+}
+
+#message {
+      color : white;
+    font-family: monospace;
+font-size: 20px;
+}
+
+
+#next {
+    display: absolute;
+    position:fixed;
+    top:110px;
+    left:60px;
+    font-family:monospace;
+    font-size: 40px;
+}
+a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+  background-image: url('../photo/sea.jpg'); /* 사진 경로 */
+  background-size: cover; /* 화면 꽉 채우기 */
+  background-position: center; /* 가운데 정렬 */
+  background-repeat: no-repeat; /* 반복 안 함 */
+  height: 100vh; /* 화면 전체 높이 */
+  margin: 0;
+}

@@ -1,0 +1,40 @@
+#second {
+   display: inline-block;   /* 크기 조절 가능하게 */
+  padding: 10px 20px;      /* 세로/가로 여백 (텍스트와 박스 간격) */
+  background-color:rgb(224, 255, 48);   /* 배경색 */
+  color: rgb(0, 0, 0);            /* 글자색 */
+  text-decoration: none;   /* 밑줄 제거 */
+  border-radius: 10px;     /* 모서리 둥글게 */
+  font-size: 16px;
+  font-family: monospace;
+}
+body {
+    background-color: midnightblue;
+    margin: 0;
+    height: 100vh;              /* 화면 전체 높이 */
+    display: flex;              /* flex 컨테이너 */
+    justify-content: center;    /* 가로 중앙 */
+    align-items: center;        /* 세로 중앙 */
+}
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none; 
+  font-family: monospace;
+}
+
+body {
+  background-image: url('../photo/sea.jpg'); /* 사진 경로 */
+  background-size: cover; /* 화면 꽉 채우기 */
+  background-position: center; /* 가운데 정렬 */
+  background-repeat: no-repeat; /* 반복 안 함 */
+  height: 100vh; /* 화면 전체 높이 */
+  margin: 0;
+}
+
+#soundButton {
+    display: absolute;
+    position:fixed;
+    top:180px;
+    left:60px;
+}
+

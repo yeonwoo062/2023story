@@ -1,0 +1,36 @@
+body{
+ background-color: rgb(10, 10, 45);
+      margin: 0;
+  height: 100vh;              /* 화면 전체 높이 */
+  display: flex;              /* flex 컨테이너 */
+  justify-content: center;    /* 가로 중앙 */
+  align-items: center; 
+}
+
+#eighteenth {
+          color : white;
+    font-family: monospace;
+font-size: 19px;
+    
+}
+a:hover {
+  color: rgb(255, 255, 255);           /* 마우스 올렸을 때 색 */
+  text-decoration: underline; /* hover 시 밑줄 */
+}
+
+#next {
+    display: absolute;
+    position:fixed;
+    top:110px;
+    left:60px;
+    font-family:monospace;
+    font-size: 40px;
+}
+a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}

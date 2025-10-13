@@ -1,0 +1,47 @@
+ body {
+    background-color: midnightblue;
+  margin: 0;
+  height: 100vh;              /* 화면 전체 높이 */
+  display: flex;              /* flex 컨테이너 */
+  justify-content: center;    /* 가로 중앙 */
+  align-items: center;  
+  }
+#first {
+color: white;
+font-family: monospace;
+font-size: 19px;
+}
+
+#next {
+    display: absolute;
+    position:fixed;
+    top:110px;
+    left:60px;
+    font-family:monospace;
+    font-size: 40px;
+}
+a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+  background-image: url('../photo/sea.jpg'); /* 사진 경로 */
+  background-size: cover; /* 화면 꽉 채우기 */
+  background-position: center; /* 가운데 정렬 */
+  background-repeat: no-repeat; /* 반복 안 함 */
+  height: 100vh; /* 화면 전체 높이 */
+  margin: 0;
+}
+
+#soundButton {
+    display: absolute;
+    position:fixed;
+    top:180px;
+    left:60px;
+}

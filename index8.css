@@ -1,0 +1,72 @@
+body{
+  background-color: rgb(10, 10, 45);
+      margin: 0;
+  height: 100vh;              /* 화면 전체 높이 */
+  display: flex;              /* flex 컨테이너 */
+  justify-content: center;    /* 가로 중앙 */
+  align-items: center; 
+}
+#eighth {
+    color : white;
+    font-family: monospace;
+font-size: 19px;
+text-align: center; 
+top: 300px;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);           /* 마우스 올렸을 때 색 */
+  text-decoration: underline; /* hover 시 밑줄 */
+}
+
+#next {
+    display: absolute;
+    position:fixed;
+    top:110px;
+    left:60px;
+    font-family:monospace;
+    font-size: 40px;
+}
+a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#eighth{
+  color: rgb(255, 255, 255);
+font-family: monospace;
+font-size: 19px;
+
+}
+
+.blurry-container {
+
+    
+    /* 요소가 화면에 보일 수 있도록 크기를 지정합니다. */
+    width: 90vw;
+    height: 30vh;
+    margin: 50px auto; /* 중앙 정렬 */
+    
+    /* 2. 기본적으로 블러 처리합니다. */
+    filter: blur(8px); /* 8px만큼 흐리게 만듭니다. 숫자가 클수록 더 흐려집니다. */
+    
+
+    transition: filter 0.3s ease-in-out;
+        color : white;
+    font-family: monospace;
+font-size: 19px;
+text-align: center; 
+}
+
+/* 4. 마우스를 올렸을 때 (호버 시) 필터를 제거하여 선명하게 만듭니다. */
+.blurry-container:hover {
+    filter: blur(0);
+        color : white;
+    font-family: monospace;
+font-size: 19px;
+text-align: center; 
+}
