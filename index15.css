@@ -13,7 +13,7 @@ a:hover {
 }
 
 body {
-  background-image: url('../photo/sea.jpg'); /* 사진 경로 */
+  background-image: url('./sea.jpg'); /* 사진 경로 */
   background-size: cover; /* 화면 꽉 채우기 */
   background-position: center; /* 가운데 정렬 */
   background-repeat: no-repeat; /* 반복 안 함 */
@@ -44,3 +44,4 @@ a:hover {
     font-family: monospace;
 font-size: 19px;
 }
+
